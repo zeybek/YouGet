@@ -1,0 +1,101 @@
+* {
+  font-family: Poppins;
+}
+
+html {
+  overflow-y: hidden !important;
+  background-color: rgba(0,0,0,0) !important;
+  background-size: 600px 430px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+#app {
+  /* // margin: 10px; */
+  padding: 30px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-radius: 10px !important;
+  font-weight: 600;
+  -webkit-user-select: none;
+  overflow-y: hidden;
+  background: url('../assets/background.jpg');
+  background-size: 610px 610px;
+  background-repeat: no-repeat;
+  /* box-shadow: 0px 20px 80px 5px rgba(0,0,0,0.05); */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-thumbnail {
+  width: 150px;
+  height: 150px;
+}
+
+.options {
+  display: flex;
+  /* // justify-content: center; */
+  align-items: center;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10pt;
+  font-weight: normal;
+}
+.statistics > #footer-left,.statistics > #footer-right {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#footer-left {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+.footer {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px !important;
+}
+
+.footer > strong {
+  font-size: 10pt;
+  color: red !important;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.timeRange {
+  display: flex;
+  /* // justify-content: center; */
+  align-items: center;
+}
+
+.inputTime {
+  width: 90px;
+}
+
+.inputElement {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+::selection {
+  color: white;
+  background: red;
+}
