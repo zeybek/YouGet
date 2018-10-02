@@ -3,7 +3,6 @@
 
 ![Github Releases](https://img.shields.io/github/downloads/ahmetzeybek/YouGet/latest/total.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ahmetzeybek/YouGet.svg)
-![Libraries.io for GitHub](https://img.shields.io/librariesio/github/ahmetzeybek/YouGet.svg)
 ![GitHub issues](https://img.shields.io/github/issues/ahmetzeybek/YouGet.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/ahmetzeybek/YouGet.svg)
 
