@@ -1,10 +1,11 @@
 ## YouGet
 
-
 ![Github Releases](https://img.shields.io/github/downloads/ahmetzeybek/YouGet/latest/total.svg)
 ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/ahmetzeybek/YouGet.svg)
 ![GitHub issues](https://img.shields.io/github/issues/ahmetzeybek/YouGet.svg)
 ![GitHub top language](https://img.shields.io/github/languages/top/ahmetzeybek/YouGet.svg)
+
+![Screenshot](https://preview.ibb.co/eZdRMz/VD1nln_1.png)
 
 This project is still in development, you can create issues for your questions etc.
 
