@@ -952,42 +952,6 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style>
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i');
-
-// Import Bulma's core
-@import '~bulma/sass/utilities/_all';
-
-// Set your colors
-$primary: #ff0000;
-$primary-invert: findColorInvert($primary);
-$twitter: #4099ff;
-$twitter-invert: findColorInvert($twitter);
-
-$convert: #7d00b8;
-$convert-invert: findColorInvert($convert);
-
-// Setup $colors to use as bulma classes (e.g. 'is-twitter')
-$colors: (
-  'white': ($white, $black),
-  'black': ($black, $white),
-  'light': ($light, $light-invert),
-  'dark': ($dark, $dark-invert),
-  'primary': ($primary, $primary-invert),
-  'info': ($info, $info-invert),
-  'success': ($success, $success-invert),
-  'warning': ($warning, $warning-invert),
-  'danger': ($danger, $danger-invert),
-  'twitter': ($twitter, $twitter-invert),
-  'convert': ($convert, $convert-invert)
-);
-
-// Links
-$link: $primary;
-$link-invert: $primary-invert;
-$link-focus-border: $primary;
-
-// Import Bulma and Buefy styles
-@import '~bulma';
-@import '~buefy/src/scss/buefy';
 </style>
