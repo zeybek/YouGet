@@ -177,6 +177,8 @@ const InputMenu = Menu.buildFromTemplate([
     role: 'paste'
   }
 ]);
+const directorySeparator = os.type().includes('Windows') ? '\\' : '/'
+
 document.body.addEventListener('contextmenu', e => {
   e.preventDefault();
   e.stopPropagation();
@@ -213,7 +215,7 @@ export default {
       startTime: '',
       endTime: '',
       isAudio: 'Video',
-      currentSaveFolder: os.homedir() + '\\Desktop\\YouGet_Downloads\\',
+      currentSaveFolder: os.homedir() + directorySeparator + 'Desktop'+ directorySeparator +'YouGet_Downloads' + directorySeparator,
       isSubtitle: '',
       totalRangeSecond: '',
       requestCutVideo: false,
@@ -658,7 +660,7 @@ export default {
     openSaveFolder: function() {
       ipcRenderer.send('select-folder');
       ipcRenderer.on('selected-directory', (event, path) => {
-        this.currentSaveFolder = `${path}\\`;
+        this.currentSaveFolder = `${path}${directorySeparator}`;
         console.log(this.currentSaveFolder);
       });
 
