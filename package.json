@@ -17,7 +17,9 @@
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
     "test": "npm run unit && npm run e2e",
     "unit": "karma start test/unit/karma.conf.js",
-    "postinstall": ""
+    "postinstall": "",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "build": {
     "productName": "YouGet",
@@ -67,7 +69,8 @@
     "vuex": "^2.3.1",
     "wavesurfer.js": "^2.0.6",
     "youtube-dl": "^1.12.2",
-    "youtube-playlist-info": "^1.1.2"
+    "youtube-playlist-info": "^1.1.2",
+    "snyk": "^1.243.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -124,5 +127,6 @@
     "webpack-hot-middleware": "^2.18.2",
     "webpack-merge": "^4.1.0",
     "ytdl-core": "^0.24.0"
-  }
+  },
+  "snyk": true
 }
