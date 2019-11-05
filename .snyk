@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - youtube-playlist-info > youtube-api > googleapis > google-auth-library > request > hawk > sntp > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > request > hawk > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > request > hawk > sntp > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > google-auth-library > request > hawk > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > google-auth-library > request > hawk > boom > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > request > hawk > boom > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > google-auth-library > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-11-05T19:19:54.550Z'
+  'npm:tough-cookie:20170905':
+    - youtube-playlist-info > youtube-api > googleapis > request > tough-cookie:
+        patched: '2019-11-05T19:19:54.550Z'
+  'npm:tunnel-agent:20170305':
+    - youtube-playlist-info > youtube-api > googleapis > request > tunnel-agent:
+        patched: '2019-11-05T19:19:54.550Z'
+    - youtube-playlist-info > youtube-api > googleapis > google-auth-library > request > tunnel-agent:
+        patched: '2019-11-05T19:19:54.550Z'
