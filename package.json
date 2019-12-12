@@ -70,7 +70,7 @@
     "wavesurfer.js": "^2.0.6",
     "youtube-dl": "^1.12.2",
     "youtube-playlist-info": "^1.1.2",
-    "snyk": "^1.243.0"
+    "snyk": "^1.258.2"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
