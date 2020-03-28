@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -28,3 +28,6 @@ patch:
         patched: '2019-11-05T19:19:54.550Z'
     - youtube-playlist-info > youtube-api > googleapis > google-auth-library > request > tunnel-agent:
         patched: '2019-11-05T19:19:54.550Z'
+  SNYK-JS-TREEKILL-536781:
+    - snyk > snyk-sbt-plugin > tree-kill:
+        patched: '2019-12-12T07:22:39.334Z'
