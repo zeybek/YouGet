@@ -81,7 +81,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.24.1",
     "babili-webpack-plugin": "^0.1.2",
-    "buefy": "^0.6.6",
+    "buefy": "^0.7.2",
     "cfonts": "^1.1.3",
     "chai": "^4.0.0",
     "chalk": "^2.1.0",
