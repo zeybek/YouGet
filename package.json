@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.0.15",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "clipboardy": "^1.2.3",
     "fluent-ffmpeg": "^2.1.2",
     "moment": "^2.22.2",
